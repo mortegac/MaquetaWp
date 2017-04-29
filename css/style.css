@@ -1,0 +1,218 @@
+
+*{
+	font-family: "san serif", Helvetica, sans-serif ;
+}
+body{
+	color: #666;
+	margin:0px; 
+	padding:0px; 
+	text-align: center;  /*Solo se aplica para IE por que reconoce todo como elementod e linea*/
+}
+
+section, header{
+	margin: 0 auto;
+
+}
+
+section{
+
+	background-color: #1abc9c;
+	color: #fff;
+	max-width: 960px;
+	min-height: 100px;
+}
+
+section h1{
+	margin:0px;
+	}
+
+header {
+	background-color: #030303;
+	color: #fff;
+	max-width: 960px;
+	margin:auto;
+    overflow: hidden;
+}
+figure {	margin: 0 !important; }
+figure img { width: 960px;}
+figure .slice{
+
+	background-image: url("../img/slice.png");
+	height: 365px;
+	margin: 0;
+
+}
+
+
+
+
+/*	CSS DEL PROFE PERO ES LA FORMA ANTIGUA
+	float:left;
+	width: 100%;
+	min-height: 100px;
+	background-color: red;
+}
+
+ .page-header .center-contents{
+        max-width: 650px;
+        margin:auto;
+        overflow: hidden;
+      }
+*/
+      .logo {
+        max-width: 60px;
+        display: block;
+        float: left;
+        margin: 4px 4px;
+      }
+
+      .logo img{
+        display: block;
+        
+        overflow: hidden;
+      }
+
+
+.menu-top{
+        color: #fff;
+        float:right;
+      }
+
+      .menu-top ul, .menu-top li{
+        list-style:none;
+        margin: 0 10px;
+        padding: 0;
+        float: left;
+      }
+
+      .menu-top a{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+    	font-weight: 600;
+        
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0.75em 1em;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .menu-top a:hover {
+    		background-color: #111111;
+		}
+
+
+
+
+
+
+/*
+nav{
+	background-color: rgba(52, 73, 94,1.0);
+
+}
+.menUser{
+	position: relative;
+	right: 0px;
+}
+.menUser ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menUser li{
+	float: left;
+}
+.menUser li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.menu{ 
+	width: 100%;
+	overflow:hidden;
+	}
+
+.menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li{
+	float: left;
+	display: inline;
+
+}
+.menu li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+*/
+
+.Welcome{
+	padding: 20px 10px;
+}
+footer{
+	background-color: rgba(44, 62, 80,1.0);
+	color: #fff;
+	min-height: 100%;
+	/*max-width: 960px;
+	min-height: 100px;*/
+}
+
+.redes{
+	position: absolute;
+	top: 20px;
+	right: 5px;
+}
+.redes a{
+	display: inline-block;
+	padding: 5px;
+	background-color: blue;
+	border-radius: 50%;
+	margin-bottom: 2px; 
+	text-decoration: none;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	}
+  	
+.fb{
+	position: relative;
+}
+.tw{
+	position: relative;
+}
+.pi{
+	position: relative;
+}
+
+
+.fondoGradient{
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left bottom,
+		color-stop(0.47, #54E8CA),
+		color-stop(1, #16A084)
+	);
+	background-image: -o-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
+	background-image: -moz-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
+	background-image: -webkit-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
+	background-image: -ms-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
+	background-image: linear-gradient(to left bottom, #54E8CA 47%, #16A084 100%);
+}
+
