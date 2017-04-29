@@ -9,8 +9,9 @@ body{
 	text-align: center;  /*Solo se aplica para IE por que reconoce todo como elementod e linea*/
 }
 
-section, header{
+section, header, footer{
 	margin: 0 auto;
+	max-width: 960px;
 
 }
 
@@ -26,10 +27,12 @@ section h1{
 	margin:0px;
 	}
 
+section article{
+	display: table-column-group;
+}
 header {
 	background-color: #030303;
 	color: #fff;
-	max-width: 960px;
 	margin:auto;
     overflow: hidden;
 }
@@ -161,15 +164,22 @@ nav{
 }
 
 */
-
-.Welcome{
-	padding: 20px 10px;
+.Welcome {
+	padding: 20px 0;
+}
+.Welcome h1{
+	padding-top: 20px;
+}
+.Welcome p{
+	padding: 0 20px
+	;
 }
 footer{
 	background-color: rgba(44, 62, 80,1.0);
 	color: #fff;
-	min-height: 100%;
-	/*max-width: 960px;
+	margin-top: 1px #cee solid;
+	/*min-height: 100%;
+	max-width: 960px;
 	min-height: 100px;*/
 }
 
@@ -201,18 +211,4 @@ footer{
 }
 
 
-.fondoGradient{
-	background-image: -webkit-gradient(
-		linear,
-		right top,
-		left bottom,
-		color-stop(0.47, #54E8CA),
-		color-stop(1, #16A084)
-	);
-	background-image: -o-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
-	background-image: -moz-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
-	background-image: -webkit-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
-	background-image: -ms-linear-gradient(left bottom, #54E8CA 47%, #16A084 100%);
-	background-image: linear-gradient(to left bottom, #54E8CA 47%, #16A084 100%);
-}
 
