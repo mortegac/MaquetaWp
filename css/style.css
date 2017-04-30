@@ -1,9 +1,10 @@
-
+@import url("normalize.css");
+@import url("ionicons.min.css");
 *{
 	font-family: "san serif", Helvetica, sans-serif ;
 }
 body{
-	color: #666;
+	color: #607D8B;
 	margin:0px; 
 	padding:0px; 
 	text-align: center;  /*Solo se aplica para IE por que reconoce todo como elementod e linea*/
@@ -17,27 +18,56 @@ section, header, footer{
 
 section{
 
-	background-color: #1abc9c;
-	color: #fff;
 	max-width: 960px;
 	min-height: 100px;
 }
 
 section h1{
 	margin:0px;
+	color: #000;
 	}
 
-section article{
-	display: table-column-group;
+.txtTool{
+	color: #009fd7;
+    text-align: left;
+    padding-left: 10px;
 }
+
+section article{
+	display: inline-table;
+	width: 31%;
+}
+section article p{
+    font-size: 11px;
+    text-align: left;
+    padding-left: 10px;
+}
+section .bloque-center{
+	margin: 0 10px;
+}
+section .bloque-herram{
+	margin: 10px 0;
+}
+figure .tools{
+
+	background-image: url("../img/slice.png");
+	width: 100%;
+	height: 100%;
+	margin: 0;
+
+}
+figure .tools img{
+	border: 1px #607D8B solid;
+
+}
+
 header {
 	background-color: #030303;
-	color: #fff;
 	margin:auto;
     overflow: hidden;
 }
 figure {	margin: 0 !important; }
-figure img { width: 960px;}
+.img-slice { width: 960px;}
 figure .slice{
 
 	background-image: url("../img/slice.png");
@@ -46,22 +76,6 @@ figure .slice{
 
 }
 
-
-
-
-/*	CSS DEL PROFE PERO ES LA FORMA ANTIGUA
-	float:left;
-	width: 100%;
-	min-height: 100px;
-	background-color: red;
-}
-
- .page-header .center-contents{
-        max-width: 650px;
-        margin:auto;
-        overflow: hidden;
-      }
-*/
       .logo {
         max-width: 60px;
         display: block;
@@ -105,8 +119,69 @@ figure .slice{
     		background-color: #111111;
 		}
 
+	  .menu-press a{
+	  	color: #009fd7;
+        text-decoration: none;
+	  }	
 
+.Welcome {
+	padding: 20px 0;
+}
+.Welcome h1{
+	padding-top: 20px;
+}
+.Welcome p{
+	padding: 0 20px
+	;
+}
+footer{
+	margin-top: 20px;
+	background-color: #fff;
+    padding: 16px 0px;
+    border-top: 1px solid #5c6266;
+    font-size: 13px;
+}
+footer a {;
+	text-decoration: none;
+	color: #5c6266
+}
 
+.redes{
+	position: absolute;
+	left:50%; 
+    margin-left: 30%;
+
+	top: 50px;
+	right: 10px;
+}
+.redes a{
+	display: inline-block;
+	padding: 5px;
+	background-color: #fff;
+	border: 2px #cee solid;
+	border-radius: 50%;
+	margin-bottom: 2px; 
+	text-decoration: none;
+	width: 30px;
+	height: 30px;
+	}
+  	
+.ico{
+	position: relative;
+	color: red;
+	font-size: 14;
+}
+.txtico{
+	color: red;
+	font-size: 34px;
+}
+/*
+.tw{
+	position: relative;
+}
+.pi{
+	position: relative;
+}*/
 
 
 
@@ -164,51 +239,3 @@ nav{
 }
 
 */
-.Welcome {
-	padding: 20px 0;
-}
-.Welcome h1{
-	padding-top: 20px;
-}
-.Welcome p{
-	padding: 0 20px
-	;
-}
-footer{
-	background-color: rgba(44, 62, 80,1.0);
-	color: #fff;
-	margin-top: 1px #cee solid;
-	/*min-height: 100%;
-	max-width: 960px;
-	min-height: 100px;*/
-}
-
-.redes{
-	position: absolute;
-	top: 20px;
-	right: 5px;
-}
-.redes a{
-	display: inline-block;
-	padding: 5px;
-	background-color: blue;
-	border-radius: 50%;
-	margin-bottom: 2px; 
-	text-decoration: none;
-	color: #fff;
-	width: 30px;
-	height: 30px;
-	}
-  	
-.fb{
-	position: relative;
-}
-.tw{
-	position: relative;
-}
-.pi{
-	position: relative;
-}
-
-
-
